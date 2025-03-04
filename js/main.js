@@ -2,7 +2,7 @@ const canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 
 // Obtiene las dimensiones de la pantalla actual
-const window_height = 800;
+const window_height = 600;
 const window_width = 900;
 
 // Ajusta el tamaño del canvas para que coincida con la pantalla

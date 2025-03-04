@@ -2,7 +2,7 @@ const canvas = document.getElementById("canvas");
 let ctx = canvas.getContext("2d");
 
 // Obtiene las dimensiones de la pantalla actual
-const window_height = 400;
+const window_height = 500;
 const window_width = 900;
 
 // Ajusta el tamaño del canvas para que coincida con la pantalla
@@ -22,8 +22,8 @@ class Circle {
     this.radius = radius;
     this.color = color;
     this.speed = speed;
-    this.dx = 0.5 * this.speed;
-    this.dy = 0.5 * this.speed;
+    this.dx = 0.3 * this.speed;
+    this.dy = 0.3 * this.speed;
     this.collisionCount = 0; // Contador de colisiones
     this.isStopped = false; // Controla si el círculo debe detenerse
   }
